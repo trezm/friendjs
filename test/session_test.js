@@ -1,7 +1,7 @@
 var utils = require('./test_config.js');
 var expect = require('chai').expect;
-var User = require('../app/models/user.js');
-var Session = require('../app/models/session.js');
+var User = require('../lib/models/user.js');
+var Session = require('../lib/models/session.js');
 var async = require('async');
 
 describe('session', function() {

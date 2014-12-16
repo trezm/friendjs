@@ -1,6 +1,6 @@
 var utils = require('./test_config.js');
 var expect = require('chai').expect;
-var User = require('../app/models/user.js');
+var User = require('../lib/models/user.js');
 var bcrypt = require('bcrypt-nodejs');
 
 describe('user', function() {
