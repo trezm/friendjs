@@ -1,6 +1,6 @@
 var utils = require('./test_config.js');
 var expect = require('chai').expect;
-var UserController = require('../app/controllers/user_controller').UserController;
+var UserController = require('../lib/controllers/user_controller').UserController;
 var Session = require('../lib/models/session');
 var async = require('async');
 
