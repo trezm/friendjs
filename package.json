@@ -27,7 +27,9 @@
     "petemertz-express-validator": "~0.1.1",
     "mandrill-api": "*",
     "libphonenumber": "0.0.9",
-    "underscore": "*"
+    "underscore": "*",
+    "redis": "*",
+    "twilio": "*"
   },
   "devDependencies": {
     "mocha": "*"
