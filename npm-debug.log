@@ -21,29 +21,29 @@
 7 verbose parsed url   href: '.' }
 8 silly lockFile 3a52ce78- .
 9 verbose lock . /Users/petemertz1/.npm/3a52ce78-.lock
-10 verbose tar pack [ '/Users/petemertz1/.npm/friendjs/0.1.36/package.tgz', '.' ]
-11 verbose tarball /Users/petemertz1/.npm/friendjs/0.1.36/package.tgz
+10 verbose tar pack [ '/Users/petemertz1/.npm/friendjs/0.1.51/package.tgz', '.' ]
+11 verbose tarball /Users/petemertz1/.npm/friendjs/0.1.51/package.tgz
 12 verbose folder .
-13 info prepublish friendjs@0.1.36
+13 info prepublish friendjs@0.1.51
 14 silly lockFile 1f1177db-tar tar://.
 15 verbose lock tar://. /Users/petemertz1/.npm/1f1177db-tar.lock
-16 silly lockFile 65563575--npm-friendjs-0-1-36-package-tgz tar:///Users/petemertz1/.npm/friendjs/0.1.36/package.tgz
-17 verbose lock tar:///Users/petemertz1/.npm/friendjs/0.1.36/package.tgz /Users/petemertz1/.npm/65563575--npm-friendjs-0-1-36-package-tgz.lock
+16 silly lockFile e9ed33d7--npm-friendjs-0-1-51-package-tgz tar:///Users/petemertz1/.npm/friendjs/0.1.51/package.tgz
+17 verbose lock tar:///Users/petemertz1/.npm/friendjs/0.1.51/package.tgz /Users/petemertz1/.npm/e9ed33d7--npm-friendjs-0-1-51-package-tgz.lock
 18 silly lockFile 1f1177db-tar tar://.
 19 silly lockFile 1f1177db-tar tar://.
-20 silly lockFile 65563575--npm-friendjs-0-1-36-package-tgz tar:///Users/petemertz1/.npm/friendjs/0.1.36/package.tgz
-21 silly lockFile 65563575--npm-friendjs-0-1-36-package-tgz tar:///Users/petemertz1/.npm/friendjs/0.1.36/package.tgz
-22 silly lockFile fe98f5c1-rtz1-npm-friendjs-0-1-36-package /Users/petemertz1/.npm/friendjs/0.1.36/package
-23 verbose lock /Users/petemertz1/.npm/friendjs/0.1.36/package /Users/petemertz1/.npm/fe98f5c1-rtz1-npm-friendjs-0-1-36-package.lock
-24 silly lockFile fe98f5c1-rtz1-npm-friendjs-0-1-36-package /Users/petemertz1/.npm/friendjs/0.1.36/package
-25 silly lockFile fe98f5c1-rtz1-npm-friendjs-0-1-36-package /Users/petemertz1/.npm/friendjs/0.1.36/package
+20 silly lockFile e9ed33d7--npm-friendjs-0-1-51-package-tgz tar:///Users/petemertz1/.npm/friendjs/0.1.51/package.tgz
+21 silly lockFile e9ed33d7--npm-friendjs-0-1-51-package-tgz tar:///Users/petemertz1/.npm/friendjs/0.1.51/package.tgz
+22 silly lockFile b71201ce-rtz1-npm-friendjs-0-1-51-package /Users/petemertz1/.npm/friendjs/0.1.51/package
+23 verbose lock /Users/petemertz1/.npm/friendjs/0.1.51/package /Users/petemertz1/.npm/b71201ce-rtz1-npm-friendjs-0-1-51-package.lock
+24 silly lockFile b71201ce-rtz1-npm-friendjs-0-1-51-package /Users/petemertz1/.npm/friendjs/0.1.51/package
+25 silly lockFile b71201ce-rtz1-npm-friendjs-0-1-51-package /Users/petemertz1/.npm/friendjs/0.1.51/package
 26 silly lockFile 3a52ce78- .
 27 silly lockFile 3a52ce78- .
 28 silly publish { name: 'friendjs',
 28 silly publish   description: 'A mongoose framework for users and friending',
 28 silly publish   main: './lib/friend.js',
 28 silly publish   author: { name: 'Pete Mertz' },
-28 silly publish   version: '0.1.36',
+28 silly publish   version: '0.1.51',
 28 silly publish   repository: { type: 'git', url: 'https://github.com/trezm/friendjs.git' },
 28 silly publish   licenses:
 28 silly publish    [ { type: 'MIT',
@@ -59,44 +59,46 @@
 28 silly publish      'petemertz-express-validator': '~0.1.1',
 28 silly publish      'mandrill-api': '*',
 28 silly publish      libphonenumber: '0.0.9',
-28 silly publish      underscore: '*' },
+28 silly publish      underscore: '*',
+28 silly publish      redis: '*',
+28 silly publish      twilio: '*' },
 28 silly publish   devDependencies: { mocha: '*' },
 28 silly publish   readme: '# FriendJS\n\n[ ![Codeship Status for trezm/friendjs](https://codeship.com/projects/7c44f180-66f6-0132-d9c9-0ec4c97b952f/status?branch=master)](https://codeship.com/projects/52988)',
 28 silly publish   readmeFilename: 'readme.md',
-28 silly publish   gitHead: '1fbd307c32482369d02d5397a57b47192bd6dffb',
+28 silly publish   gitHead: 'b7e326237e2d5faf9df314ad9beabf63ffbe8e0a',
 28 silly publish   bugs: { url: 'https://github.com/trezm/friendjs/issues' },
 28 silly publish   homepage: 'https://github.com/trezm/friendjs',
-28 silly publish   _id: 'friendjs@0.1.36',
+28 silly publish   _id: 'friendjs@0.1.51',
 28 silly publish   scripts: {},
-28 silly publish   _shasum: '547c0704690c67cc765377be17b3f09938d41e31',
+28 silly publish   _shasum: '9504a04e163334565ac62bea743388c8757c313d',
 28 silly publish   _from: '.' }
 29 verbose request where is /friendjs
 30 verbose request registry https://registry.npmjs.org/
-31 verbose request id 4d9cd6d1059d212e
+31 verbose request id 98bc44c15599853b
 32 verbose url raw /friendjs
 33 verbose url resolving [ 'https://registry.npmjs.org/', './friendjs' ]
 34 verbose url resolved https://registry.npmjs.org/friendjs
 35 verbose request where is https://registry.npmjs.org/friendjs
-36 info trying registry request attempt 1 at 21:51:34
+36 info trying registry request attempt 1 at 17:20:34
 37 http PUT https://registry.npmjs.org/friendjs
 38 http 403 https://registry.npmjs.org/friendjs
-39 verbose headers { date: 'Sun, 18 Jan 2015 02:51:35 GMT',
+39 verbose headers { date: 'Mon, 02 Feb 2015 22:20:34 GMT',
 39 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
 39 verbose headers   'content-type': 'application/json',
 39 verbose headers   'cache-control': 'max-age=60',
-39 verbose headers   'content-length': '2999',
+39 verbose headers   'content-length': '3065',
 39 verbose headers   'accept-ranges': 'bytes',
 39 verbose headers   via: '1.1 varnish',
-39 verbose headers   'x-served-by': 'cache-jfk1026-JFK',
+39 verbose headers   'x-served-by': 'cache-jfk1033-JFK',
 39 verbose headers   'x-cache': 'MISS',
 39 verbose headers   'x-cache-hits': '0',
-39 verbose headers   'x-timer': 'S1421549494.747827,VS0,VE403',
+39 verbose headers   'x-timer': 'S1422915634.768891,VS0,VE169',
 39 verbose headers   'keep-alive': 'timeout=10, max=50',
 39 verbose headers   connection: 'Keep-Alive' }
 40 error publish Failed PUT 403
-41 error Error: forbidden cannot modify pre-existing version: 0.1.36
-41 error old={"name":"friendjs","description":"A mongoose framework for users and friending","main":"./lib/friend.js","author":{"name":"Pete Mertz"},"version":"0.1.36","repository":{"type":"git","url":"https://github.com/trezm/friendjs.git"},"licenses":[{"type":"MIT","url":"https://github.com/trezm/friendjs/blob/master/LICENSE"}],"bin":{"friendjs-server":"bin/friendjs-server"},"dependencies":{"async":"^0.9.0","body-parser":"^1.6.6","bcrypt-nodejs":"0.0.3","chai":"^1.9.1","mongoose":"~3.8.20","express":"4.10.6","petemertz-express-validator":"~0.1.1","mandrill-api":"*","libphonenumber":"0.0.9","underscore":"*"},"devDependencies":{"mocha":"*"},"gitHead":"a9fc8c98e31b3389f62679f109e6dfe5d64c53e8","bugs":{"url":"https://github.com/trezm/friendjs/issues"},"homepage":"https://github.com/trezm/friendjs","_id":"friendjs@0.1.36","scripts":{},"_shasum":"ce6c365db5b8e5eee91ee59828a6610dd76e4d81","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"trezm","email":"peter.s.mertz@gmail.com"},"maintainers":[{"name":"trezm","email":"peter.s.mertz@gmail.com"}],"dist":{"shasum":"ce6c365db5b8e5eee91ee59828a6610dd76e4d81","tarball":"http://registry.npmjs.org/friendjs/-/friendjs-0.1.36.tgz"}}
-41 error new={"name":"friendjs","description":"A mongoose framework for users and friending","main":"./lib/friend.js","author":{"name":"Pete Mertz"},"version":"0.1.36","repository":{"type":"git","url":"https://github.com/trezm/friendjs.git"},"licenses":[{"type":"MIT","url":"https://github.com/trezm/friendjs/blob/master/LICENSE"}],"bin":{"friendjs-server":"bin/friendjs-server"},"dependencies":{"async":"^0.9.0","body-parser":"^1.6.6","bcrypt-nodejs":"0.0.3","chai":"^1.9.1","mongoose":"~3.8.20","express":"4.10.6","petemertz-express-validator":"~0.1.1","mandrill-api":"*","libphonenumber":"0.0.9","underscore":"*"},"devDependencies":{"mocha":"*"},"readme":"# FriendJS\u000a\u000a[ ![Codeship Status for trezm/friendjs](https://codeship.com/projects/7c44f180-66f6-0132-d9c9-0ec4c97b952f/status?branch=master)](https://codeship.com/projects/52988)","readmeFilename":"readme.md","gitHead":"1fbd307c32482369d02d5397a57b47192bd6dffb","bugs":{"url":"https://github.com/trezm/friendjs/issues"},"homepage":"https://github.com/trezm/friendjs","_id":"friendjs@0.1.36","scripts":{},"_shasum":"547c0704690c67cc765377be17b3f09938d41e31","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"trezm","email":"peter.s.mertz@gmail.com"},"maintainers":[{"name":"trezm","email":"peter.s.mertz@gmail.com"}],"dist":{"shasum":"547c0704690c67cc765377be17b3f09938d41e31","tarball":"http://registry.npmjs.org/friendjs/-/friendjs-0.1.36.tgz"}}: friendjs
+41 error Error: forbidden cannot modify pre-existing version: 0.1.51
+41 error old={"name":"friendjs","description":"A mongoose framework for users and friending","main":"./lib/friend.js","author":{"name":"Pete Mertz"},"version":"0.1.51","repository":{"type":"git","url":"https://github.com/trezm/friendjs.git"},"licenses":[{"type":"MIT","url":"https://github.com/trezm/friendjs/blob/master/LICENSE"}],"bin":{"friendjs-server":"bin/friendjs-server"},"dependencies":{"async":"^0.9.0","body-parser":"^1.6.6","bcrypt-nodejs":"0.0.3","chai":"^1.9.1","mongoose":"~3.8.20","express":"4.10.6","petemertz-express-validator":"~0.1.1","mandrill-api":"*","libphonenumber":"0.0.9","underscore":"*","redis":"*","twilio":"*"},"devDependencies":{"mocha":"*"},"gitHead":"0b230397e4e154d5074a0fbc6749d6816158ebd5","bugs":{"url":"https://github.com/trezm/friendjs/issues"},"homepage":"https://github.com/trezm/friendjs","_id":"friendjs@0.1.51","scripts":{},"_shasum":"8cf1711d0b3031ff2211d4346de2a5f9c5165c2d","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"trezm","email":"peter.s.mertz@gmail.com"},"maintainers":[{"name":"trezm","email":"peter.s.mertz@gmail.com"}],"dist":{"shasum":"8cf1711d0b3031ff2211d4346de2a5f9c5165c2d","tarball":"http://registry.npmjs.org/friendjs/-/friendjs-0.1.51.tgz"}}
+41 error new={"name":"friendjs","description":"A mongoose framework for users and friending","main":"./lib/friend.js","author":{"name":"Pete Mertz"},"version":"0.1.51","repository":{"type":"git","url":"https://github.com/trezm/friendjs.git"},"licenses":[{"type":"MIT","url":"https://github.com/trezm/friendjs/blob/master/LICENSE"}],"bin":{"friendjs-server":"bin/friendjs-server"},"dependencies":{"async":"^0.9.0","body-parser":"^1.6.6","bcrypt-nodejs":"0.0.3","chai":"^1.9.1","mongoose":"~3.8.20","express":"4.10.6","petemertz-express-validator":"~0.1.1","mandrill-api":"*","libphonenumber":"0.0.9","underscore":"*","redis":"*","twilio":"*"},"devDependencies":{"mocha":"*"},"readme":"# FriendJS\u000a\u000a[ ![Codeship Status for trezm/friendjs](https://codeship.com/projects/7c44f180-66f6-0132-d9c9-0ec4c97b952f/status?branch=master)](https://codeship.com/projects/52988)","readmeFilename":"readme.md","gitHead":"b7e326237e2d5faf9df314ad9beabf63ffbe8e0a","bugs":{"url":"https://github.com/trezm/friendjs/issues"},"homepage":"https://github.com/trezm/friendjs","_id":"friendjs@0.1.51","scripts":{},"_shasum":"9504a04e163334565ac62bea743388c8757c313d","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"trezm","email":"peter.s.mertz@gmail.com"},"maintainers":[{"name":"trezm","email":"peter.s.mertz@gmail.com"}],"dist":{"shasum":"9504a04e163334565ac62bea743388c8757c313d","tarball":"http://registry.npmjs.org/friendjs/-/friendjs-0.1.51.tgz"}}: friendjs
 41 error     at RegClient.<anonymous> (/Users/petemertz1/.nvm/v0.10.34/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:308:14)
 41 error     at Request._callback (/Users/petemertz1/.nvm/v0.10.34/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:65)
 41 error     at Request.self.callback (/Users/petemertz1/.nvm/v0.10.34/lib/node_modules/npm/node_modules/request/request.js:236:22)
@@ -110,7 +112,7 @@
 42 error If you need help, you may report this *entire* log,
 42 error including the npm and node versions, at:
 42 error     <http://github.com/npm/npm/issues>
-43 error System Darwin 14.0.0
+43 error System Darwin 14.1.0
 44 error command "/Users/petemertz1/.nvm/v0.10.34/bin/node" "/Users/petemertz1/.nvm/v0.10.34/bin/npm" "publish"
 45 error cwd /Users/petemertz1/dev/friendjs
 46 error node -v v0.10.34
