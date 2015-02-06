@@ -3,7 +3,7 @@
   "description": "A mongoose framework for users and friending",
   "main": "./lib/friend.js",
   "author": "Pete Mertz",
-  "version": "0.1.56",
+  "version": "0.1.57",
   "repository": {
     "type": "git",
     "url": "https://github.com/trezm/friendjs.git"
@@ -29,7 +29,8 @@
     "libphonenumber": "0.0.9",
     "underscore": "*",
     "redis": "*",
-    "twilio": "*"
+    "twilio": "*",
+    "aws-sdk": "*"
   },
   "devDependencies": {
     "mocha": "*"
