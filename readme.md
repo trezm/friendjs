@@ -26,12 +26,12 @@ This will set up your app with all of the routes necessary to make users, friend
 Sample JSON for request:
 ```json
 {
-	first: "Luke",
-	last: "Skywalker",
-	email: "lukey.s@jedi.com",
-	phoneNumber: "123-456-7890",
-	password: "donttellvader",
-	passwordConfirmation: "donttellvader"
+	"first": "Luke",
+	"last": "Skywalker",
+	"email": "lukey.s@jedi.com",
+	"phoneNumber": "123-456-7890",
+	"password": "donttellvader",
+	"passwordConfirmation": "donttellvader"
 }
 ```
 
@@ -43,8 +43,8 @@ Sample JSON for request:
 Sample JSON for request:
 ```json
 {
-	email: "lukey.s@jedi.com",
-	password: "donttellvader"
+	"email": "lukey.s@jedi.com",
+	"password": "donttellvader"
 }
 ```
 
@@ -58,6 +58,6 @@ Sample JSON for request:
 Sample JSON for request:
 ```json
 {
-	pin: '012345'
+	"pin": "012345"
 }
 ```
